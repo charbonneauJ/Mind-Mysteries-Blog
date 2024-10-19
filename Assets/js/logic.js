@@ -16,8 +16,7 @@ function writing(blogPost) {
 
 function navigate(page) {
   console.log("Navigating to " + page);
-
-  window.location.assign(page);
+  window.location.href = page; // Redirects to the specified page
 }
 function changeTheme() {
   let theme = localStorage.getItem("theme");
