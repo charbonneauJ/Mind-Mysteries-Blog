@@ -16,8 +16,12 @@ function writing(blogPost) {
 
 function navigate(page) {
   console.log("Navigating to " + page);
-  // window.location.href = page; // Redirects to the specified page
-  window.location.assign(page);
+  const url = window.location.href.split("/");
+  url[url.length - 1] = page;
+  console.log(window.location.href);
+
+  window.location.href = url.join("/"); // Redirects to the specified page
+  // window.location.assign(page);
 }
 function changeTheme() {
   let theme = localStorage.getItem("theme");
