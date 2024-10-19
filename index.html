@@ -5,40 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link rel="stylesheet" href="./assets/css/form.css" />
     <title>My Blog Website</title>
   </head>
-  <body>
+  <body class="light-mode">
+    <button id="theme-button">🌞</button>
     <div class="card">
       <h2>Username</h2>
       <form>
         <ul>
           <li>
-            <label for="Username">Username</label>
-            <select id="Username">
-              <option value="Any??">Any??</option>
-              <option value="Any??">Any??</option>
-              <option value="Any??">Any??</option>
-              <option value="Any??">Any??</option>
-            </select>
+            <label for="username">Username</label>
+            <input id="username" />
           </li>
           <li>
-            <label for="Title">Title</label>
-            <select id="Titles">
-              <option value="Any??">Any??</option>
-              <option value="Any??">Any??</option>
-              <option value="Any??">Any??</option>
-              <option value="Any??">Any??</option>
-            </select>
+            <label for="title">Title</label>
+            <input id="title" />
           </li>
           <li>
             <label for="content">Content</label>
             <textarea id="content" name="contentBody"></textarea>
           </li>
         </ul>
-        <a href="./blog.html" class="button">Submit</a>
+        <button type="button" id="formButton">Submit</button>
       </form>
     </div>
 
-    <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/logic.js"></script>
+    <script src="./assets/js/form.js"></script>
   </body>
 </html>
