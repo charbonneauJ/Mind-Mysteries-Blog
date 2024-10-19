@@ -1,4 +1,3 @@
-console.log("logic.js loaded");
 const themeButton = document.getElementById("theme-button");
 
 function reading() {
