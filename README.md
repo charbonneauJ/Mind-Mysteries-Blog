@@ -2,9 +2,11 @@
 
 This is my Personal Blog title "The mysteries of your mind unravelled" or Mind-Mysteries-Blog on my repo! It probably is a bit much for a name, don't you think? It is my submission for the Week 4 challenge using HTML/CSS/JS. I hope you like it!
 
+
 ## Link
 
-Git pages...
+Git pages - 
+https://charbonneauj.github.io/Mind-Mysteries-Blog/
 
 ## Screenshots
 
