@@ -19,7 +19,7 @@ function handleFormSubmit(event) {
 
   const blogPost = { username, title, content };
   writing(blogPost);
-  navigate("/blog.html");
+  navigate("blog.html");
 }
 
 formButton.addEventListener("click", handleFormSubmit);
