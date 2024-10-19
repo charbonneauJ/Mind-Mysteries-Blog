@@ -6,7 +6,9 @@ This is my Personal Blog! It is my submission for the Week 4 challenge using HTM
 ## Issues
 
 
+## Link
 
+Git pages...
 
 ## Screenshots
 
