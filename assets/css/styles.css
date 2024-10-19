@@ -45,6 +45,50 @@ button:hover {
     color: white;
 }
 
+.dark-mode button {
+    background-color: #333;
+    color: white;
+}
+
+.dark-mode button:hover {
+    background-color: #555;
+}
+
+.dark-mode h1 {
+    color: white;
+}
+
+.dark-mode li {
+    color: #ccc;
+}
+
+.dark-mode ul {
+    color: #ccc;
+}
+
+.dark-mode .card {
+    background-color: #333;
+    color: white;
+}
+
+.dark-mode .card button {
+    background-color: #333;
+    color: white;
+}
+.dark-mode .card button:hover {
+    background-color: #555;
+}
+.dark-mode .card h2 {
+    color: white;
+}
+.dark-mode .card li {
+    color: #ccc;
+}.dark-mode .card ul {
+    color: #ccc;
+}
+.dark-mode .h2 {
+    color: white;
+}
 .light-mode {
     background-color: #f9f9f9;
     color: #333;
