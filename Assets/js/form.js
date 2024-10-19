@@ -1,5 +1,3 @@
-console.log("form.js loaded");
-
 const usernameInput = document.getElementById("username");
 const titleInput = document.getElementById("title");
 const contentInput = document.getElementById("content");
